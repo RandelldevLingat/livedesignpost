@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../posting/practice.css"/>
+
+    <!-- Nav-bar links -->
+    <link rel="stylesheet" href="../posting/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Posting Page</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <label id="logo">
+          <img id="logos" src="../IMG/ICONS/logo.png">
+        </label>
+        <div class="box">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text" name="" placeholder="Search here for answers to any question...">
+        </div>
+        <div class="links-container">
+          <a class="home-link" href="index.html">Home</a> <!-- link back to homepage -->
+          <a href="../posting/practice.html ">Ask Question</a> 
+          <a href="products.html">Join For Free</a>
+        </div>
+      </nav>
+
+      <!-- Main Content Posting page -->
+
+    <main>
+        <div class="container">
+            <form action="" class="post-lt">
+                <div class="post-title">
+                    <h2>Ask some questions about your assignment</h2>
+                    <hr/>   
+                    <h3>Please enter your question below</h3>
+                </div>
+                <textarea name="question" placeholder="Type your question here..." class="message_input" required></textarea>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Subject
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Filipino</a></li>
+                      <li><a class="dropdown-item" href="#">Math</a></li>
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Science</a></li>
+                      <li><a class="dropdown-item" href="#">Health</a></li>
+                    </ul>
+                  </div>
+                <button class="ask_button">Submit question<img class="submit-image" src="../IMG/ICONS/next.png"></button>
+            </form>
+            <div class="right_image_container">
+                <img class="right_img" src="../IMG/ICONS/rightImage.webp"/>
+            </div>
+        </div>
+      </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
